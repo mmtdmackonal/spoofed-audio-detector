@@ -1,4 +1,4 @@
-C:/Users/mmmtd/Documents/spoofed-audio-detector/app.pyC:/Users/mmmtd/Documents/spoofed-audio-detector/app.pystreamlit
+
 tensorflow
 numpy
 pandas
