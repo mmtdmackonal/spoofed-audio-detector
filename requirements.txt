@@ -1,10 +1,2 @@
 
 streamlit
-numpy
-tensorflow
-pandas
-matplotlib
-opencv-python
-wave
-opencv-python
-soundfile
