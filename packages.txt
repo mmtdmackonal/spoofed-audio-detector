@@ -1,3 +1,4 @@
+streamlit
 libsndfile1-dev
 numpy
 tensorflow
@@ -7,3 +8,4 @@ opencv-python
 wave
 opencv-python
 soundfile
+cv2
