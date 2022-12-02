@@ -1,7 +1,6 @@
 # Required Imports
 import os
 import streamlit as st
-import pandas as pd
 import numpy as np
 import cv2
 import soundfile as sf
@@ -15,11 +14,13 @@ model = tf.keras.models.load_model('./weights/model_weights.h5')
 # Function to save the uploaded file
 def save_uploadedfile(uploadedfile):
      filepath = os.path.join(os.getcwd(), "temp", uploadedfile.name)
-     with open(filepath,"wb") as f:
+     with open(filepath, "wb") as f:
          f.write(uploadedfile.getbuffer())
      return filepath
 
 # Function to generate the amplitude and frequency plots
+
+
 def get_plots(file):
 
     # Getting and preparing required parameters
@@ -32,7 +33,7 @@ def get_plots(file):
     timestamps = np.linspace(0, dur, sample_count)
 
     # Plotting Amplitude Plot
-    amp_plot = plt.figure(figsize=(12,5))
+    amp_plot = plt.figure(figsize=(12, 5))
     plt.plot(timestamps, sig_arr)
     plt.title('Amplitude Plot')
     plt.ylabel('Signal Value')
@@ -51,6 +52,7 @@ def get_plots(file):
 
 # Function to predict the uploaded file
 # (AI Inference PIPELINE)
+
 def predict(file = None):
 
     # Generating Spectogram from the file

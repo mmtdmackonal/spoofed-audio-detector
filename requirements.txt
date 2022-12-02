@@ -1,10 +1,10 @@
 
-tensorflow
+streamlit
 numpy
+tensorflow
 pandas
 matplotlib
 opencv-python
-soundfile
 wave
 opencv-python
-streamlit
+soundfile
