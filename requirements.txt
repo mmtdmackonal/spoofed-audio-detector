@@ -5,7 +5,11 @@ pandas
 matplotlib
 opencv-python
 soundfile
-libsndfile1-dev
 wave
 opencv-python
 streamlit
+freeglut3-dev
+libgtk2.0-dev
+libasound2-dev
+libsndfile1-dev
+ffmpeg
