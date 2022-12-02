@@ -1,1 +1,9 @@
 libsndfile1-dev
+numpy
+tensorflow
+pandas
+matplotlib
+opencv-python
+wave
+opencv-python
+soundfile
