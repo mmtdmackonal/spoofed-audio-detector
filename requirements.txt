@@ -1,4 +1,4 @@
-
+libsndfile1-dev
 tensorflow
 numpy
 pandas
