@@ -4,5 +4,5 @@ pandas
 matplotlib
 opencv-python
 wave
-opencv-python
+opencv-python-headless
 soundfile
