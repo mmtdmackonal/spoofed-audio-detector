@@ -1,10 +1,11 @@
-libsndfile-dev
+
 tensorflow
 numpy
 pandas
 matplotlib
 opencv-python
 soundfile
+libsndfile1-dev
 wave
 opencv-python
 streamlit
