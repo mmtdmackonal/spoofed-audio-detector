@@ -1,4 +1,4 @@
-
+python3.7-venv
 tensorflow
 numpy
 pandas
@@ -8,6 +8,5 @@ soundfile
 wave
 opencv-python
 streamlit
-libasound2-dev
 libsndfile1-dev
 ffmpeg
