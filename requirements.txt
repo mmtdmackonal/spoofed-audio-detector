@@ -8,5 +8,3 @@ opencv-python
 wave
 opencv-python
 soundfile
-libsndfile
-sndfile
