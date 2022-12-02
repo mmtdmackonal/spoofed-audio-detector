@@ -1,5 +1,3 @@
-
-libsndfile1-dev
 numpy
 tensorflow
 pandas
