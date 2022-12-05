@@ -72,7 +72,7 @@ def predict(file = None):
 
 	# Prediction
 	pred = model.predict(image)
-	label = "Real Audio with Accuracy Score 93%" if np.argmax(pred[0]) == 0 else "Spoofed"
+	label = "This is a Fake Audio Fie" if np.argmax(pred[0]) == 0 else "This is a Real Audio Fie"
 
 	# Removing temp files after prediction
 	os.remove('./temp/1.png')
